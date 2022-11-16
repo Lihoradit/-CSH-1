@@ -1,6 +1,6 @@
 ﻿//Задача №2 Напишите программу, которая на вход 
 //принимает два числа и выдаёт, какое число большее, а какое меньшее.
-Console.WriteLine("Введите первое  число:");
+/*Console.WriteLine("Введите первое  число:");
 int N1=Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе  число:");
 int N2=Convert.ToInt32(Console.ReadLine());
@@ -56,4 +56,4 @@ while(current<=N)
         Console.WriteLine(num+ "");
     }
     N--;
-}
+}*/
