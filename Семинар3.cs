@@ -1,7 +1,7 @@
 /*Задача 19
 Напишите программу, которая принимает 
 на вход пятизначное число и проверяет, является ли оно палиндромом.*/
-void pal(int pal)
+/*void pal(int pal)
 {
     int a1,b1;
     if(pal<=99999 && pal>=10000)
@@ -22,11 +22,11 @@ void pal(int pal)
 }
 Console.WriteLine("Send your 5d number");
 int a=Convert.ToInt32(Console.ReadLine());
-pal(a);
+pal(a);*/
 /*Задача 21
 Напишите программу, которая принимает на вход 
 координаты двух точек и находит расстояние между ними в 3D пространстве.*/
-double AMOGUS(int x1, int y1, int z1, int x2, int y2, int z2)
+/*double AMOGUS(int x1, int y1, int z1, int x2, int y2, int z2)
 {
     double a = Math.Round(
     Math.Sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1) +
@@ -42,11 +42,11 @@ int xb = Convert.ToInt32(Console.ReadLine());
 int yb = Convert.ToInt32(Console.ReadLine());
 int zb = Convert.ToInt32(Console.ReadLine());
 double g = AMOGUS(xa, ya, za, xb, yb, zb);
-Console.WriteLine(g);
+Console.WriteLine(g);*/
 /*Задача 23
 Напишите программу, которая 
 принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.*/
-void abdurozik(int a)
+/*void abdurozik(int a)
 {
     int current = 1;
     int b;
@@ -70,3 +70,4 @@ else
 {
     Console.WriteLine("Инкорректед нумбер");
 }
+*/
