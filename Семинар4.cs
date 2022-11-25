@@ -1,6 +1,6 @@
 /*Задача 25: Напишите цикл, который принимает на вход 
 два числа (A и B) и возводит число A в натуральную степень B.*/
-int degree(int args1, int args2)
+/*int degree(int args1, int args2)
 {
     int result = 1;
     for (int c = 1; c <= args2; c++)
@@ -23,10 +23,10 @@ else
 {
     int ret = degree(num1,num2);
     Console.WriteLine($"{num1} to the degreed of {num2} will be: {ret}");
-}
+}*/
 /*Задача 27: Напишите программу,
 которая принимает на вход число и выдаёт сумму цифр в числе.*/
-void sum(int num)
+/*void sum(int num)
 {
     int result = 0;
     for (int c = num; c > 0; c--)//Одному богу известно(и то врядли уже), как это работает
@@ -47,10 +47,10 @@ void sum(int num)
 }
 Console.WriteLine("Input number: ");
 int number = Convert.ToInt32(Console.ReadLine());
-sum(number);
+sum(number);*/
 /*Задача 29: Напишите программу, 
 которая задаёт массив из 8 элементов и выводит их на экран.*/
-int[] mas(int h, int k, int size)
+/*int[] mas(int h, int k, int size)
 {
     int[] array= new int[size];
     for(int i=0; i<size; i++){
@@ -72,7 +72,7 @@ int l=Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Enter the array size:");
 int size=Convert.ToInt32(Console.ReadLine());
 int[] array1= mas(p,l,size);
-ShowArray(array1);
+ShowArray(array1);*/
 
 
 
