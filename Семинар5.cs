@@ -1,6 +1,6 @@
 /*Задача 34: Задайте массив заполненный случайными положительными трёхзначными числами. 
 Напишите программу, которая покажет количество чётных чисел в массиве.*/
-int[] mas(int index)
+/*int[] mas(int index)
 {
     int[] mas = new int[index];
     Console.Write("Your array:[");
@@ -27,10 +27,10 @@ void sum(int[] mas)
 }
 Console.Write("Input array lenght: ");
 int gg = Convert.ToInt32(Console.ReadLine());
-sum(mas(gg));
+sum(mas(gg));*/
 /*Задача 36: Задайте одномерный массив, заполненный случайными числами. 
 Найдите сумму элементов, стоящих на нечётных позициях.*/
-int[] array(int ind)
+/*int[] array(int ind)
 {
     int[] array=new int[ind];
     Console.Write("Your array:[");
@@ -55,13 +55,13 @@ int[] array(int ind)
         }
     }
     Console.WriteLine("The sum of array elements on odd index values: "+sum);
-}
-Console.Write("Input array size:");
+}*/
+/*Console.Write("Input array size:");
 int ggg=Convert.ToInt32(Console.ReadLine());
-sum1(array(ggg));
+sum1(array(ggg));*/
 /*Задача 38: Задайте массив вещественных чисел. 
 Найдите разницу между максимальным и минимальным элементов массива.*/
-double[] mass(int indx,int n, int m)
+/*double[] mass(int indx,int n, int m)
 {
     double[] mass=new double[indx];
     Console.Write("Your array:[");
@@ -100,4 +100,4 @@ Console.WriteLine("Input array minValue:");
 int minv=Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Input array maxValue:");
 int maxv=Convert.ToInt32(Console.ReadLine());
-summ(mass(size,minv,maxv));
+summ(mass(size,minv,maxv));*/
