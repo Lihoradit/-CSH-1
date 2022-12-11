@@ -1,7 +1,7 @@
 /*Задача 54: Задайте двумерный массив. 
 Напишите программу, которая упорядочит по убыванию 
 элементы каждой строки двумерного массива.*/
-int[,] Fillarray(int row, int column)
+/*int[,] Fillarray(int row, int column)
 {
     int[,] array = new int[row, column];
     for (int i = 0; i < row; i++)
@@ -75,14 +75,14 @@ array = Fillarray(userRow, userColumn);
 Showarray(array);
 Sortarray(array);
 Console.WriteLine();
-Showarray(array);
+Showarray(array);*/
 /*Задача 56: Задайте прямоугольный двумерный массив.
 Напишите программу, которая будет находить строку с наименьшей суммой элементов.*/
-int res = MinSumArray(array);
-Console.WriteLine($"The row with the smallest sum of numbers: {res}");
+/*int res = MinSumArray(array);
+Console.WriteLine($"The row with the smallest sum of numbers: {res}");*/
 /*Задача 58: Задайте две матрицы. 
 Напишите программу, которая будет находить произведение двух матриц.*/
-int[,] matrix1 = new int[2, 2];
+/*int[,] matrix1 = new int[2, 2];
 int[,] matrix2 = new int[2, 2];
 matrix1 = Fillarray(matrix1.GetLength(0), matrix1.GetLength(1));
 matrix2 = Fillarray(matrix2.GetLength(0), matrix2.GetLength(1));
@@ -101,10 +101,10 @@ void Arrayx(int[,] array1, int[,] array2)
         }
     }
     Showarray(result);
-}
+}*/
 /*Задача 60. ...Сформируйте трёхмерный массив из неповторяющихся двузначных чисел.
  Напишите программу, которая будет построчно выводить массив, добавляя индексы каждого элемента.*/
-int[,,] FillNewArray()
+/*int[,,] FillNewArray()
 {
     int[,,] matrix = new int[2, 2, 2];
     for (int i = 0; i < matrix.GetLength(0); i++)
@@ -137,9 +137,9 @@ void ShowNewArray(int[,,] array)
 Console.WriteLine("=)");
 int[,,] roflmatrix=new int[2,2,2];
 roflmatrix=FillNewArray();
-ShowNewArray(roflmatrix);
+ShowNewArray(roflmatrix);*/
 //Задача 62. Напишите программу, которая заполнит спирально массив 4 на 4.
-int[,] WeeWeeMatrix()
+/*int[,] WeeWeeMatrix()
 {
     int n = 4;
     int[,] weeWee = new int[n, n];
@@ -165,4 +165,4 @@ int[,] WeeWeeMatrix()
 }
 int[,] weeMatrix=new int[4,4];
 weeMatrix=WeeWeeMatrix();
-Showarray(weeMatrix);
+Showarray(weeMatrix);*/
